@@ -18,6 +18,9 @@ let package = Package(
         .library(name: "KeychainAccess", targets: ["KeychainAccess"])
     ],
     targets: [
-        .target(name: "KeychainAccess", path: "Lib/KeychainAccess", exclude:["Info.plist"])
+        .target(name: "KeychainAccess", 
+                path: "Lib/KeychainAccess",
+                resources: [.process("Lib/KeychainAccess/Supporting Files/Privacyinfo.xcprivacy")],
+                exclude:["Info.plist"])
     ]
 )
