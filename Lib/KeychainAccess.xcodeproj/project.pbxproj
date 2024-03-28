@@ -411,6 +411,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 148E44EB1BF9EEB3004FFEC1 /* KeychainAccess.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Debug;
 		};
@@ -418,6 +421,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 148E44EB1BF9EEB3004FFEC1 /* KeychainAccess.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Release;
 		};
@@ -425,6 +431,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 148E44E91BF9EDE4004FFEC1 /* Tests.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -432,6 +440,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 148E44E91BF9EDE4004FFEC1 /* Tests.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -439,6 +449,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14F0C1981D329832007DCDDB /* TestHost.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -446,6 +458,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14F0C1981D329832007DCDDB /* TestHost.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
