@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'KeychainAccess'
-  s.version          = '4.2.2'
+  s.version          = '4.2.2.1'
   s.summary          = 'KeychainAccess is a simple Swift wrapper for Keychain that works on iOS and OS X.'
   s.description      = <<-DESC
                          KeychainAccess is a simple Swift wrapper for Keychain that works on iOS and OS X.
@@ -17,17 +17,16 @@ Pod::Spec.new do |s|
                            - watchOS and tvOS are also supported
                        DESC
   s.homepage         = 'https://github.com/kishikawakatsumi/KeychainAccess'
-  s.screenshots      = 'https://raw.githubusercontent.com/kishikawakatsumi/KeychainAccess/master/Screenshots/01.png'
   s.license          = 'MIT'
   s.author           = { 'kishikawa katsumi' => 'kishikawakatsumi@mac.com' }
-  s.source           = { :git => 'https://github.com/kishikawakatsumi/KeychainAccess.git', :tag => "v#{s.version}" }
+  s.source           = { :git => 'https://github.com/qulix-cs-ios/KeychainAccess.git', :branch => 'b4.2.2', :tag => "#{s.version}" }
   s.social_media_url = 'https://twitter.com/k_katsumi'
 
   s.requires_arc = true
   s.source_files = 'Lib/KeychainAccess/*.swift'
   s.resource_bundles = {'SSZipArchive' => ['Lib/KeychainAccess/Supporting Files/Privacyinfo.xcprivacy']}
 
-  s.swift_version = '5.1'
+  s.swift_version = '5'
 
   s.ios.deployment_target = '12.0'
   s.osx.deployment_target = '10.13'
